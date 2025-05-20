@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted at Medical Image Understanding and Analysis 2025.
+<a href='https://arxiv.org/abs/2412.01590'>One paper</a> accepted at Medical Image Understanding and Analysis 2025.

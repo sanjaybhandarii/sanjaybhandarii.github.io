@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted at Medical Image Computing and Computer Assisted Intervention 2025.
+<a href='https://arxiv.org/abs/2505.07001'>One paper</a> accepted at Medical Image Computing and Computer Assisted Intervention 2025.
