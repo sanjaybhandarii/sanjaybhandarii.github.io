@@ -21,6 +21,6 @@ social: true # includes social icons at the bottom of the page
 
 Hello there, I’m an computer engineering graduate from Pulchowk Campus, Institure of Engineering, Nepal. I currenty work at NAAMII under the supervision of <a href='https://scholar.google.com/citations?user=PDEi58sAAAAJ'>Dr. Binod Bhattarai</a>. I am working at the forefront of medical imaging and its applications through computer vision and AI. My current research focuses on mitigating hallucinations in large vision-language models. My research interests are in OOD detection, Robust Multimodal learning and Trustworthy AI. 
 
-<h2> I will be joining University of Utah this fall.</h2>
+<h3> Update:I will be joining University of Utah this fall.</h3>
 
 
