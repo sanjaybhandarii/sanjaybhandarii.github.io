@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href='https://arxiv.org/abs/2412.01590'>One paper</a> accepted at Medical Image Understanding and Analysis 2025.
+<a href='https://arxiv.org/abs/2412.01590'>NCDD: Nearest Centroid Distance Deficit for Out-Of-Distribution Detection </a> accepted at Medical Image Understanding and Analysis 2025.
