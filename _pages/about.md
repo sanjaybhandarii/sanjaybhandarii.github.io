@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello there, I’m an computer engineering graduate from Pulchowk Campus, Institure of Engineering, Nepal. I am working at the forefront of medical imaging and its applications through computer vision and AI. My current research focuses on mitigating hallucinations in large vision-language models. My research interests are in OOD detection, Robust Multimodal learning and Trustworthy AI. 
+Hi, I’m an AI researcher from Nepal. I am working at the forefront of medical imaging and its applications through computer vision and AI. My current research focuses on mitigating hallucinations in large vision-language models. My research interests are in OOD detection, Robust Multimodal learning and Trustworthy AI. 
 
 <h3> Update: I will be joining University of Utah this fall.</h3>
