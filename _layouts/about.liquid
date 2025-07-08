@@ -23,27 +23,6 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
-    <!-- Social -->
-        {% if page.social %}
-          <div class="social">
-            <div class="contact-icons">{% include social.liquid %}</div>
-          </div>
-        {% endif %}
-
-        {%- if page.profile.cv %}
-          <div class="address">
-            {%- assign cv_path = page.profile.cv | prepend: 'assets/pdf/' -%}
-
-            Find my
-            <a href="{{ cv_path }}"> CV here</a>
-          </div>
-        {%- endif %}
-
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    
   </header>
 
   <article>
@@ -63,9 +42,30 @@ layout: default
              include figure.liquid loading = "eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
              cache_bust=true %}
         {% endif %}
-      {% endif %}
 
-      
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+
+      <!-- Social -->
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+          </div>
+        {% endif %}
+
+        {%- if page.profile.cv %}
+          <div class="address">
+            {%- assign cv_path = page.profile.cv | prepend: 'assets/pdf/' -%}
+
+            Find my
+            <a href="{{ cv_path }}">CV here.</a>
+          </div>
+        {%- endif %}
+    {% endif %}
+
+    
 
     <div class="clearfix">{{ content }}</div>
 
