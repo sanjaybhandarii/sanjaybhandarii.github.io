@@ -21,6 +21,7 @@ layout: default
       {% else %}
         {{ site.title }}
       {% endif %}
+      
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
@@ -43,6 +44,15 @@ layout: default
              cache_bust=true %}
         {% endif %}
 
+        {%- if page.profile.cv %}
+          <div class="address">
+            {%- assign cv_path = page.profile.cv | prepend: 'assets/pdf/' -%}
+
+            Find my
+            <a href="{{ cv_path }}">CV here.</a>
+          </div>
+        {%- endif %}
+
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
@@ -54,15 +64,6 @@ layout: default
             <div class="contact-icons">{% include social.liquid %}</div>
           </div>
         {% endif %}
-
-        {%- if page.profile.cv %}
-          <div class="address">
-            {%- assign cv_path = page.profile.cv | prepend: 'assets/pdf/' -%}
-
-            Find my
-            <a href="{{ cv_path }}">CV here.</a>
-          </div>
-        {%- endif %}
     {% endif %}
 
     
