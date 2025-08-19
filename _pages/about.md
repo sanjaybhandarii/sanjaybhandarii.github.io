@@ -20,4 +20,6 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Hi, I am a PhD student at the Kahlert School of Computing at The University of Utah advised by Professor Shireen Elhabian.
-I am working at the forefront of medical imaging and its applications through computer vision and AI. My current research focuses on Statistical Shape Analysis and Modelling. My research interests are in OOD detection, Mitigating hallucinations in large vision-language models, Robust Multimodal learning and Trustworthy AI. 
+I am working at the forefront of medical imaging and its applications through computer vision and AI. My current research focuses on Statistical Shape Analysis and Modelling. 
+
+Before joining UofU, I worked at Nepal Applied Mathematics and Informatics Institute for research (NAAMII), supervised by Dr. Binod Bhattarai, Ph.D., where my primary research focus was on OOD detection and mitigating hallucinations in large vision-language models.
