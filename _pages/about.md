@@ -19,6 +19,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I’m an AI researcher from Nepal. I am working at the forefront of medical imaging and its applications through computer vision and AI. My current research focuses on mitigating hallucinations in large vision-language models. My research interests are in OOD detection, Robust Multimodal learning and Trustworthy AI. 
-
-<h5> Update: I will be joining University of Utah this fall.</h5>
+Hi, I am a PhD student at the Kahlert School of Computing at The University of Utah advised by Professor Shireen Elhabian.
+I am working at the forefront of medical imaging and its applications through computer vision and AI. My current research focuses on Statistical Shape Analysis and Modelling. My research interests are in OOD detection, Mitigating hallucinations in large vision-language models, Robust Multimodal learning and Trustworthy AI. 
